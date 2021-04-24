@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aluraconf</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/cabecalho.css">
+    <link rel="stylesheet" href="./css/principal.css">
+    <link rel="stylesheet" href="./css/palestrantes.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__nav">
+            <ul class="cabecalho__lista">
+                <li class="cabecalho__item"><a class="cabecalho__link" href="#sobre">Sobre</a></li>
+                <li class="cabecalho__item"><a class="cabecalho__link"href="#palestrantes">Palestrantes</a></li>
+            </ul>
+        </nav>
+
+        <div class="cabecalho__destaque">
+            <div class="cabecalho__chamada">
+                <h1 class="cabecalho__titulo">aluraconf</h1>
+                <h2 class="cabecalho__subtitulo">30maio|rio</h2>
+            </div>
+            <div class="cabecalho__botao">
+                <a class="cabecalho__link" href="#formulario">inscreva-se</a>
+            </div>
+        </div>
+    </header> 
+    
+    <main>
+        <section id="sobre" class="principal">
+            <div class="container">
+                <h2 class="principal__titulo">Muito conteúdo: do front-end ao back-end</h2>
+                <h3 class="principal__subtitulo">30 de maio de 2017 - na cidade Maravilhosa</h3>
+                <p class="principal__texto">Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor mobile.</p>
+                <p class="principal__texto">É uma grande chance de ficar por denro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX, além da parte back-end com Rest, Microservices e BigData. O desenvolvedor atualizado vai estar aqui.</p>
+            </div>
+        </section>
+
+        <section id="palestrantes"class="palestrantes">
+            <div class="palestrantes__sobre">
+                <h2 class="titulo">Palestrantes</h2>
+                <h5 class="subtitulo">Aprenda com palestrantes que são referência no mercado</p>
+            </div>
+
+            <article class="palestrantes__perfil">
+                <img src="./img/palestrantes/placeholder.jpeg" alt="Foto de perfil" class="perfil">
+                <h6 class="perfil__nome">Flávio Almeida</p>
+                <p class="perfil__descricao">Flávio é desenvolvedor e instrutor, focado no desenvolvimento com Angular e procurando conciliar o frontend com o backend. </p>
+            </article>
+            
+            <article class="palestrantes__perfil">
+                <img src="./img/palestrantes/placeholder.jpeg" alt="Foto de perfil" class="perfil">
+                <h6 class="perfil__nome">Flávio Almeida</p>
+                <p class="perfil__descricao">Flávio é desenvolvedor e instrutor, focado no desenvolvimento com Angular e procurando conciliar o frontend com o backend. </p>
+            </article>
+            
+            <article class="palestrantes__perfil">
+                <img src="./img/palestrantes/placeholder.jpeg" alt="Foto de perfil" class="perfil">
+                <h6 class="perfil__nome">Flávio Almeida</p>
+                <p class="perfil__descricao">Flávio é desenvolvedor e instrutor, focado no desenvolvimento com Angular e procurando conciliar o frontend com o backend. </p>
+            </article>
+            
+            <article class="palestrantes__perfil">
+                <img src="./img/palestrantes/placeholder.jpeg" alt="Foto de perfil" class="perfil">
+                <h6 class="perfil__nome">Flávio Almeida</p>
+                <p class="perfil__descricao">Flávio é desenvolvedor e instrutor, focado no desenvolvimento com Angular e procurando conciliar o frontend com o backend. </p>
+            </article>
+            
+            <article class="palestrantes__perfil">
+                <img src="./img/palestrantes/placeholder.jpeg" alt="Foto de perfil" class="perfil">
+                <h6 class="perfil__nome">Flávio Almeida</p>
+                <p class="perfil__descricao">Flávio é desenvolvedor e instrutor, focado no desenvolvimento com Angular e procurando conciliar o frontend com o backend. </p>
+            </article>
+            
+            <article class="palestrantes__perfil">
+                <img src="./img/palestrantes/placeholder.jpeg" alt="Foto de perfil" class="perfil">
+                <h6 class="perfil__nome">Flávio Almeida</p>
+                <p class="perfil__descricao">Flávio é desenvolvedor e instrutor, focado no desenvolvimento com Angular e procurando conciliar o frontend com o backend. </p>
+            </article>
+        </section>
+
+        <section id="formulario"class="formulario">
+            <h3 class="titulo__formulario">Seus dados</h3>
+            <form class=" formulario__campo container">
+                <div class="grupo__formulario">
+                    <label class="label__form" for="nome">Nome</label>
+                    <input class="imput__form" type="text" id="nome"name="nome">
+                </div>
+
+                <div class="grupo__formulario">
+                    <label class="label__form"for="email">E-mail</label>
+                    <input class="imput__form" type="text" id="email" name="email">
+                </div>
+
+                <div class="button">
+                    <button class="button__form">Realizar inscrição</button>
+                </div>
+            </form>
+        </section>
+
+        <script src="./js/jquery.js"></script>
+        <script src="./js/index.js"></script>
+
+    </main>
+</body>
+

@@ -1,0 +1,42 @@
+.palestrantes {
+    background-color:#EF7247;
+    text-align:center;
+}
+
+.titulo {
+    color:#FFF;
+    font-size:2em;
+    text-transform: uppercase;
+    padding-top:2rem;
+}
+
+.subtitulo {
+    color:#FFF;
+    font-size:1.5em;
+    margin-top:1rem;
+    padding:.3em;
+}
+
+.palestrantes__perfil {
+    background-color:#FFF;
+    width:230px;
+    border-radius:5px;
+    display:inline-block;
+    text-align:center;
+    margin:.8em;
+}
+
+.perfil {
+    margin-top:1em;
+    margin-bottom:1em;
+    width:70%;
+    border-radius:100px;
+}
+
+.perfil__nome {
+    font-size:16px;
+}
+
+.perfil__descricao {
+    padding:.7em;
+}

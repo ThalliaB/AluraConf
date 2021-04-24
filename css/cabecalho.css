@@ -1,0 +1,79 @@
+.cabecalho {
+    background: url(../img/destaque.jpeg) no-repeat;
+    background-size: cover;
+    text-align:center;
+}
+
+.cabecalho__item {
+    display:inline-block;
+    padding:1rem;
+    margin:1rem;
+    background:rgba(0, 0, 0, 0.1);
+    border-radius:5px;
+    transition:background-color .4s;
+}
+
+.cabecalho__link {
+    text-decoration: none;
+    color:#FFF;
+    text-transform:uppercase;
+}
+
+.cabecalho__chamada {
+    font-size:20px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 10px #000;
+    margin: 2rem;
+}
+
+.cabecalho__titulo {
+    padding-bottom:1rem;
+}
+
+.cabecalho__subtitulo {
+    color:rgb(7, 180, 59);
+}
+
+.cabecalho__botao {
+    display:inline-block;
+    padding: 1rem 1.5rem;
+    margin-bottom:1.5rem;
+    background-color:#258b92;
+    border-radius:5px;
+}
+
+@media screen and (min-width:768px) {
+    .cabecalho__item {
+        margin:1.3rem;
+        padding:1.3rem;
+    }
+
+  .cabecalho__chamada {
+      font-size:2.3em;
+      margin:2.2rem;
+  } 
+  
+  .cabecalho__botao {
+      padding:1.5rem 2rem;
+      font-size:1.2em;
+  }
+}
+
+@media screen and (min-width:1024px) {
+    .cabecalho__chamada {
+        font-size:42px;
+    }
+
+    .cabecalho__item:hover {
+         background-color:#258b92;
+    }
+
+    .cabecalho__botao {
+        font-size:20px;
+    }
+
+    .cabecalho__item {
+        font-size:1.2em;
+    }
+}

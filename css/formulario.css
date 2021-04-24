@@ -1,0 +1,47 @@
+.titulo__formulario {
+    text-align:center;
+    text-transform: uppercase;
+    font-size:1.8em;
+    margin:1rem;
+    color:#EF7247;
+}
+
+.label__form {
+    font-size:18px;
+    display:block;
+    font-weight:bold;
+}
+
+.imput__form {
+    width:100%;
+    font-size:18px;
+    padding:.2em;
+    border-radius:5px;
+    box-shadow:1px 1px 10px #258b92;
+    margin-top:.3em;
+}
+
+.grupo__formulario {
+    padding-top:1.5em;
+}
+
+.button {
+    text-align:center;
+}
+
+.button__form {
+    margin-top:1.5em;
+    background-color:#258b92;
+    color:#FFF;
+    text-transform:uppercase;
+    font-size:18px;
+    padding:.7em;
+    border-radius:5px;
+    margin-bottom:1.5em;
+}
+
+@media screen and (min-width:768px) {
+    .button__form {
+        font-size:20px;
+    }
+}
